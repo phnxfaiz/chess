@@ -1,0 +1,160 @@
+	body {
+		overflow: hidden;
+		background: #272833 url(img/board1.png) center 19px;
+		background-size: 640px;
+		padding: 0px;
+		margin: 0;
+		font-family: Trebuchet MS;
+		height: 100%;
+		width: 100%;
+		text-align: center;
+	}
+	tr {
+		margin: 0px;
+		padding: 0px;
+		max-height: 70px;
+		overflow: hidden;
+	}
+	table {
+		border-collapse: collapse;
+		height: 560px;
+		width: 560px;
+		border: none;
+		margin: auto;
+		margin-top: 54px;
+		border: 2px solid black;
+	}
+	button {
+		padding: 0px;
+		margin: 0px;
+		height: 65px;
+		width: 70px;
+		background: transparent;
+		border: none;
+		font-weight: bold;
+		margin-top: 3px;
+		margin-left: 3px;
+		margin-right: 3px;
+	}
+	button:disabled {
+		color: black;
+		opacity: 0.5;
+	}
+	.boxW {
+		padding: 0px;
+		margin: 0px;
+		max-height: 67px;
+		max-width: 70px;
+		border: 2px solid black;
+		text-align: center;
+		background: url(img/w.png);
+	}
+	.boxB {
+		background: transparent;
+		padding: 0px;
+		max-height: 67px;
+		width: 70px;
+		border: 2px solid black;
+		text-align: center;
+		background: url(img/b.png);
+	}
+	#white {
+		padding: 0px;
+		margin: 0px;
+		color: transparent;
+		width: 70px;
+		height: 70px;
+		padding: 0px;
+	}
+	#black {
+		padding: 0px;
+		margin: 0px;
+		color: transparent;
+		width: 70px;
+		height: 70px;
+		padding: 0px;
+	}
+	#Notif {
+		position: fixed;
+		color: white;
+		width: 100%;
+		top: 5px;
+		text-shadow: 0px 0px 3px black;
+	}
+
+	#topBack
+	{
+		position: absolute;
+		top: 0px;
+		margin: 0;
+		padding: 0;
+		background: #272822;
+		height: 50%;
+		width: 100%;
+		border-bottom: 5px solid #181913; 
+	}
+
+	#bottomBack
+	{
+		position: absolute;
+		bottom: 0px;
+		margin: 0;
+		padding: 0;
+		background: #272822;
+		height: 50%;
+		width: 100%;
+	}
+	#midbar
+	{
+		position: absolute;
+  		top: 50%;
+  		transform: translateY(-50%);
+  		height: 5px;
+  		width: 100%;
+  		background: #181913;
+  		z-index: 500;
+	}
+	#startBut
+	{
+		padding: 0;
+		margin: 0;
+		position: absolute;
+		top: 50%;
+		z-index: 1000;
+		width: 100%;
+	}
+	#mb {
+		overflow: hidden;
+ 	 	position: relative;
+  		top: 50%;
+  		transform: translateY(-50%);
+		padding: 0;
+		margin: 0;
+		font-size: 20pt;
+		color: #181913;
+		background: teal;
+		width: 15%;
+		border-radius: 10px;
+		border: 5px solid #181913;
+	}
+	#msg
+	{
+		position: fixed;
+		top:0px;
+		height:100%;
+		width: 100%;
+		padding: 20px;
+		background: rgba(0,0,0,0.8);
+		color: white;
+		font-size: 20pt;
+		display: none;
+		z-index: 1000;
+	}
+	#msg a {
+		color: white;
+		background:teal;
+		border: 1px solid black;
+		padding: 5px 20px 5px 20px;
+		border-radius: 5px;
+		text-decoration: none;
+	}
